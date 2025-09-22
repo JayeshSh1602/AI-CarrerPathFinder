@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  config: {
-    turbopack: {
-      dev: false,
-    },
+  // ✅ correct way in Next.js 15
+  turbo: {
+    dev: false,
   },
 
   webpack: (config) => {
@@ -24,4 +23,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig; 
+export default nextConfig;
