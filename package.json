@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "npx --yes install-lightningcss"
+    "start": "next start"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.32.0",
